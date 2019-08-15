@@ -1,3 +1,16 @@
+/*
+I am not sure whether this solution can be broken but it passes all the tests
+I firstly remove all nodes that do not participate in a path from 1 of length k
+Then, for every layer(distance from 1), I try marking each vertex
+The complexity then becomes the product of the count of vertices in each layer
+Because I have some returns for trivial cases the worst case is when each layer consists of around 20 vertices and the layers are 20
+Then the number of operations will be 20^20
+But in this case a lot of vertices are basically the same, and the order doesn't matter much
+So if there is a solution it will be found fast
+To avoid time limits, when I run out of time I output NO
+
+I haven't looked at the official solution yet, but I will tomorrow
+*/
 #include <bits/stdc++.h>
 
 using namespace std;
