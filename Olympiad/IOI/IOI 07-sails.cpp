@@ -1,3 +1,6 @@
+/*
+	Looked at this - https://github.com/stefdasca/CompetitiveProgramming/blob/6c63b0779a2aa622696573078168727c4379d8f2/IOI/IOI%2007-sails.cpp
+*/
 #include <bits/stdc++.h>
 
 using namespace std;
