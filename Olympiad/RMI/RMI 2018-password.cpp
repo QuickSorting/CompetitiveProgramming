@@ -86,7 +86,7 @@ int main(){
 	}
 	ans += let[0];
 	--cnt[let[0]];
-
+//
 	for(int i = 0; i < n - 1; ++i){
 		int c = let[0];
 		for(int j = 0; j < 25; ++j){
