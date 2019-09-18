@@ -1,3 +1,9 @@
+/*
+	We can compare the position of the next letter for each letter of the alphabet in one operation
+	So we maintain a sorted array of the letters
+	The first one is obviously the next letter so we output it
+	After that we remove it and try to find where it's new place in the array will be
+*/
 #include <bits/stdc++.h>
 
 using namespace std;
