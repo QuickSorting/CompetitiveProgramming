@@ -3,7 +3,7 @@
 using namespace std;
 
 const int mod = 1e9 + 7;
-const int LOGN = 3;
+const int LOGN = 21;
 const int MAXN = (1 << LOGN);
 
 int a[MAXN], f[MAXN], power[MAXN];
