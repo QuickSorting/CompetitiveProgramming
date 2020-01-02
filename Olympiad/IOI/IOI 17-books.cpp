@@ -57,7 +57,7 @@ long long bfs(int from,
 			dist[u + 1] = dist[u] + 1;
 			q.push_back(u + 1);
 		}
-		if(range[u].first - 1 >= 0 && dist[u - 1] > dist[u] + 1){
+		if(u - 1 >= 0 && dist[u - 1] > dist[u] + 1){
 			dist[u - 1] = dist[u] + 1;
 			q.push_back(u - 1);
 		}
