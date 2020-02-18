@@ -1,3 +1,8 @@
+/*
+	-First, I pass through the queries and build the graph/tree with union find
+	-Then I use heavy-light decomposition with a fenwick tree to take care of updates and queries
+	-Union find still takes care of unite queries
+*/
 #include <bits/stdc++.h>
 
 using namespace std;
