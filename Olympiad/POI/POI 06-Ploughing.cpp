@@ -1,3 +1,7 @@
+/*
+	-Did the same dp as the other guys
+	-Used short to reduce memory
+*/
 #include <bits/stdc++.h>
 
 using namespace std;
